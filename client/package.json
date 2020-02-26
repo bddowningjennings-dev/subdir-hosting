@@ -20,6 +20,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "homepage": "https://webtools.umail.utah.edu/admax/",
   "browserslist": {
     "production": [
       ">0.2%",
