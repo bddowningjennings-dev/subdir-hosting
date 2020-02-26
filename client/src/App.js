@@ -15,7 +15,7 @@ function App() {
         <Link to="two">Two</Link>
       </nav>
       <br /><br /><br />
-      <Router>
+      <Router basepath="/admax">
         <One path="/" />
         <Two path="two" />
       </Router>
