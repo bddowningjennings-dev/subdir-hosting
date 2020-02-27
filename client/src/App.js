@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link
@@ -9,7 +9,7 @@ import {
 
 export default function App() {
   return (
-    <Router basename="/admax">
+    <Router basename={`/${process.env.PUBLIC_URL}`}>
       <div>
         <nav>
           <ul>
