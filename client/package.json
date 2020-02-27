@@ -21,7 +21,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": ".",
+  "homepage": "http://18.222.178.111/admax",
   "browserslist": {
     "production": [
       ">0.2%",

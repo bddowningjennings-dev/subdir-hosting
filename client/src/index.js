@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
@@ -26,7 +26,7 @@ function Users() {
 
 
 ReactDOM.render(
-  <Router basename={`/${process.env.PUBLIC_URL}`}>
+  <Router basename={`${process.env.PUBLIC_URL}`}>
       <Switch>
         <Route path="/about">
           <About />
