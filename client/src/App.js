@@ -11,13 +11,13 @@ function App() {
     <div className="App">
       here<br /><br /><br />
       <nav>
-        <Link to={`${process.env.PUBLIC_URL}/`}>One</Link>
-        <Link to={`${process.env.PUBLIC_URL}/two`}>Two</Link>
+        <Link to={`./`}>One</Link>
+        <Link to={`./two`}>Two</Link>
       </nav>
       <br /><br /><br />
       <Router basepath={`${process.env.PUBLIC_URL}/admax`}>
-        <One path={`/`} />
-        <Two path={`two`} />
+        <One path={`./`} />
+        <Two path={`./two`} />
       </Router>
     
     </div>
