@@ -15,7 +15,7 @@ function App() {
         <Link to={`./two`}>Two</Link>
       </nav>
       <br /><br /><br />
-      <Router basepath={`${process.env.PUBLIC_URL}/admax`}>
+      <Router basepath={`${process.env.PUBLIC_URL}`}>
         <One path={`./`} />
         <Two path={`./two`} />
       </Router>
