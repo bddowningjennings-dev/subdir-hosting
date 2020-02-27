@@ -9,7 +9,7 @@ import {
 
 export default function App() {
   return (
-    <Router basename="/admax">
+    <Router>
       <div>
         <nav>
           <ul>
@@ -54,3 +54,4 @@ function About() {
 function Users() {
   return <h2>Users</h2>;
 }
+export default App;
